@@ -1,6 +1,7 @@
 
 import React, { Component } from "react";
 import Pokemon from "../pokemon/Pokemon";
+import "./CapturedList.css";
 
 class CapturedList extends Component {
 
@@ -10,7 +11,7 @@ class CapturedList extends Component {
 
     render() {
         return (
-            <ul>
+            <ul className="captured-list">
                 {this.props.captured.map((pokemon, index) => {
                     return (
                         <li key={index}>

@@ -1,0 +1,48 @@
+
+.hunt-background {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    background-image: url("../../assets/image/grass.png");
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+
+.hunt-left-button,
+.hunt-right-button,
+.hunt-current-pokemon,
+.hunt-text {
+    position: absolute;
+}
+
+.hunt-left-button,
+.hunt-right-button {
+    top: 80px;
+}
+
+.hunt-left-button {
+    left: 20%;
+}
+
+.hunt-right-button {
+    right: 20%;
+}
+
+.hunt-current-pokemon,
+.hunt-text {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hunt-current-pokemon {
+    top: 48px;
+}
+
+.hunt-text {
+    max-width: 160px;
+    background-color: white;
+    top: 180px;
+    padding: 8px 16px;
+    text-align: center;
+}

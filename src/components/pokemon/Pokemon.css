@@ -1,0 +1,18 @@
+
+.pokemon-wrap {
+    position: relative;
+    text-align: center;
+}
+
+.pokemon-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.pokemon-img {
+    margin-top: 24px;
+    max-width: 96px;
+    max-height: 96px;
+}

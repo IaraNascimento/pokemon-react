@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import HuntSection from "./components/hunt-section/HuntSection";
 import CapturedList from "./components/captured-list/CapturedList";
+import "./App.css";
 
 class App extends Component {
 

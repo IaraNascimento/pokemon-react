@@ -1,0 +1,17 @@
+
+.captured-list {
+    margin: 24px;
+}
+
+.captured-list li {
+    display: inline-block;
+    padding: 8px;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    border: 2px solid #f39c12;
+    background-color: rgba(243, 156, 18, .2);
+    border-radius: 4px;
+    margin: 4px;
+    overflow: hidden;
+}
